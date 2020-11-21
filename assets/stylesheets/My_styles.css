@@ -1,0 +1,132 @@
+
+.side-bar-header {
+    text-align: center;
+    font-size: 35px; 
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: white;
+}
+
+.big-nav{
+    font-size: 20px;
+}
+
+.fab {
+        padding: 10px;
+        font-size: 40px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+body, html {
+    height: 100%;
+}
+
+.same-line{
+    display: inline;
+}
+
+#socialMedia{
+    position: absolute;
+    left: 45px;
+    bottom: 20px;
+}
+
+.background-img {
+    
+    background-image: url('img/My_photo2.png'), url('img/My_gradient_cover.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    opacity: 0.5, 1;
+    height: 100%;
+    position: relative;
+}
+
+.body-background{
+    background-image: url('img/My_gradient_cover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+.ct-1 {
+    padding: 120px
+}
+
+.heading-white {
+    color: white; 
+    font-size: 60px;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 270px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  
+  #links a:link, a:hover, a:visited, a:active {
+    color: rgb(104, 98, 98);
+ }
+
+  .sidenav-opt{
+    text-align: center;
+    padding: 8px 8px 32px;
+    font-size: 30px;
+    display: block;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #ffffff;
+  }
+   
+  
+  /* Page content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.center-content{
+    position: relative;
+    top: 20%;
+    left: 47%;
+    width: 20%;
+}
+
+.card-pos{
+    position: relative;
+    left: 29%;
+    top: 10%;
+}
+
+.card-image-size{
+    width: 225px;
+    height: 225px;
+}
+
+#about {
+    font-size: 250%;
+    width: 70%;
+    height: auto;
+    position: relative;
+    left: 20%;
+    top: 20%;
+    color: white;
+}
